@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sauceyambr-injectguard_jd147"
+name = "sauceyambr-multi_tenant_memory_isolation_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://sauceyambr.github.io"
-Repository = "https://github.com/sauceyambr/injectguard_jd147"
-Issues = "https://github.com/sauceyambr/injectguard_jd147/issues"
+Repository = "https://github.com/sauceyambr/multi_tenant_memory_isolation_budget_alloc"
+Issues = "https://github.com/sauceyambr/multi_tenant_memory_isolation_budget_alloc/issues"
 
 [project.scripts]
-injectguard_jd147 = "injectguard_jd147:main"
+multi_tenant_memory_isolation_budget_alloc = "multi_tenant_memory_isolation_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["injectguard_jd147"]
+py-modules = ["multi_tenant_memory_isolation_budget_alloc"]
